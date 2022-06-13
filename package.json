@@ -1,0 +1,21 @@
+{
+
+    "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "1.0.0-next.49", "esbuild": "0.14.43", "svelte": "3.48.0",
+        "vite": "2.9.12"
+    },
+
+    "name": "healthy-humans",
+
+    "private": true,
+
+    "scripts": {
+        "build": "vite build", "dev": "vite", "preview": "vite preview",
+        "serve": "npm run build && npm run preview"
+    },
+
+    "type": "module",
+
+    "version": "1.0.0"
+
+}
