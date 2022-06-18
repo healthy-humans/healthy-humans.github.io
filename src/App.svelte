@@ -274,7 +274,7 @@
 
         justify-items: center;
 
-        margin: 0 432px;
+        margin: 0 320px;
 
         row-gap: 20px;
 
