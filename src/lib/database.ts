@@ -54,13 +54,6 @@ class DatabaseSchema extends Dexie {
 }
 
 export const database: DatabaseSchema = new DatabaseSchema('main');
-export const nutritionUnits: Object = {
-    carbohydrate: 'g',
-    cholesterol: 'mg',
-    fat: 'g',
-    protein: 'g',
-    sodium: 'mg'
-};
 
 database.foodItems.mapToClass(FoodItem);
 database.nutritionValues.mapToClass(NutritionValues);

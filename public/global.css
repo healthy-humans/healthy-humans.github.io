@@ -1,0 +1,60 @@
+:root {
+
+    --color-accent: #1fb2a6;
+    --color-base: #191d24;
+    --color-content: #eeeeee;
+    --color-neutral: #2a303c;
+    --color-primary: #6419e6;
+    --color-secondary: #d926a9;
+
+}
+
+* {
+
+    border-style: none;
+
+    color: var(--color-content);
+
+    font-family: 'Ubuntu', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    transition-duration: 720ms;
+
+}
+
+button {
+
+    font-size: 20px;
+
+}
+
+main {
+
+    background-color: var(--color-base);
+
+    height: 100vh;
+
+}
+
+p {
+
+    font-size: 20px;
+
+}
+
+.hover {
+
+    filter: brightness(100%);
+
+}
+
+.hover:hover {
+
+    filter: brightness(120%);
+
+    transition-property: filter;
+
+}
