@@ -196,6 +196,7 @@
 
     <br>
     <br>
+    <br>
 
     {#key itemsFlag}
         <div id="items">
